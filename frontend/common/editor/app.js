@@ -4,6 +4,8 @@ import BackgroundManager from './layers/background';
 
 export default function App({mailer, setMailer}) {
   return <>
-    {mailer != null && <BackgroundManager mailer={mailer} setMailer={setMailer}/>}
+    {mailer != null && <Editor mailer={mailer} setMailer={setMailer}/>}
   </>;
 }
+
+/* {mailer != null && <BackgroundManager mailer={mailer} setMailer={setMailer}/>} */
